@@ -14,6 +14,11 @@
 		DE501CF31D182B4000FB8F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE501CF11D182B4000FB8F38 /* LaunchScreen.storyboard */; };
 		DE501CFE1D182B4000FB8F38 /* Week_5_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE501CFD1D182B4000FB8F38 /* Week_5_HomeworkTests.swift */; };
 		DE501D091D182B4000FB8F38 /* Week_5_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE501D081D182B4000FB8F38 /* Week_5_HomeworkUITests.swift */; };
+		DE501D171D182C0E00FB8F38 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE501D161D182C0E00FB8F38 /* FeedViewController.swift */; };
+		DE501D1A1D18406D00FB8F38 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE501D191D18406D00FB8F38 /* PhotoViewController.swift */; };
+		DE501D1D1D184F4C00FB8F38 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE501D1B1D184F4C00FB8F38 /* BaseTransition.swift */; };
+		DE501D1E1D184F4C00FB8F38 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE501D1C1D184F4C00FB8F38 /* FadeTransition.swift */; };
+		DE501D201D1858CE00FB8F38 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE501D1F1D1858CE00FB8F38 /* ImageTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		DE501D041D182B4000FB8F38 /* Week 5 HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 5 HomeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE501D081D182B4000FB8F38 /* Week_5_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_5_HomeworkUITests.swift; sourceTree = "<group>"; };
 		DE501D0A1D182B4000FB8F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE501D161D182C0E00FB8F38 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DE501D191D18406D00FB8F38 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../PhotoViewController.swift; sourceTree = "<group>"; };
+		DE501D1B1D184F4C00FB8F38 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		DE501D1C1D184F4C00FB8F38 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		DE501D1F1D1858CE00FB8F38 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,12 @@
 		DE501CE71D182B4000FB8F38 /* Week 5 Homework */ = {
 			isa = PBXGroup;
 			children = (
+				DE501D181D18404C00FB8F38 /* Viewcontrollers */,
 				DE501CE81D182B4000FB8F38 /* AppDelegate.swift */,
 				DE501CEA1D182B4000FB8F38 /* ViewController.swift */,
+				DE501D1B1D184F4C00FB8F38 /* BaseTransition.swift */,
+				DE501D1C1D184F4C00FB8F38 /* FadeTransition.swift */,
+				DE501D1F1D1858CE00FB8F38 /* ImageTransition.swift */,
 				DE501CEC1D182B4000FB8F38 /* Main.storyboard */,
 				DE501CEF1D182B4000FB8F38 /* Assets.xcassets */,
 				DE501CF11D182B4000FB8F38 /* LaunchScreen.storyboard */,
@@ -123,6 +137,15 @@
 				DE501D0A1D182B4000FB8F38 /* Info.plist */,
 			);
 			path = "Week 5 HomeworkUITests";
+			sourceTree = "<group>";
+		};
+		DE501D181D18404C00FB8F38 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				DE501D191D18406D00FB8F38 /* PhotoViewController.swift */,
+				DE501D161D182C0E00FB8F38 /* FeedViewController.swift */,
+			);
+			name = Viewcontrollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE501CEB1D182B4000FB8F38 /* ViewController.swift in Sources */,
+				DE501D201D1858CE00FB8F38 /* ImageTransition.swift in Sources */,
+				DE501D1D1D184F4C00FB8F38 /* BaseTransition.swift in Sources */,
+				DE501D1A1D18406D00FB8F38 /* PhotoViewController.swift in Sources */,
+				DE501D171D182C0E00FB8F38 /* FeedViewController.swift in Sources */,
+				DE501D1E1D184F4C00FB8F38 /* FadeTransition.swift in Sources */,
 				DE501CE91D182B4000FB8F38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
