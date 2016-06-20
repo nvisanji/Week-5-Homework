@@ -22,7 +22,7 @@ Time spent: `5 hours (not enough time this week to do anymore than this)`
 
 Here's a walkthrough of implemented user stories:
 
-
+!(Week 5 Homework)(https://github.com/nvisanji/Week-5-Homework/blob/master/week5_homework.gif?raw=true)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
