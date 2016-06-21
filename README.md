@@ -22,10 +22,10 @@ Time spent: `5 hours (not enough time this week to do anymore than this)`
 
 Here's a walkthrough of implemented user stories:
 
-!(Week 5 Homework)(https://github.com/nvisanji/Week-5-Homework/blob/master/week5_homework.gif?raw=true)
+![Week 5 Homework](https://github.com/nvisanji/Week-5-Homework/blob/master/week5_homework.gif?raw=true)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-This week was a huge challenge for time. I understand the concept well and was able to make the pieces work, however I ran into time trying to make the image transition smoother. I would have needed to put in a few more hours to make it work better.
+This week was a huge challenge for time. I understand the concept enough and was able to make the pieces work, however I ran into time trying to make the image transition smoother (it is really wonky). I would have needed to put in a few more hours to make it work better.
