@@ -28,4 +28,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-This week was a huge challenge for time. I understand the concept enough and was able to make the pieces work, however I ran into time trying to make the image transition smoother (it is really wonky). I would have needed to put in a few more hours to make it work better.
+This week was a huge challenge for time. I understand the concept enough and was able to make the pieces work, however I ran out of time trying to make the image transition smoother (it is really wonky). I would have needed to put in a few more hours to do more discovery on the issue.
